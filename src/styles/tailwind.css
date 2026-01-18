@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, rgba(45, 33, 85, 0.6), transparent 45%),
+    linear-gradient(135deg, #05040a 0%, #0b0815 45%, #06040d 100%);
+}
+
+.glass-panel {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-lg;
+}
+
+.neon-border {
+  box-shadow: 0 0 0 1px rgba(60, 231, 255, 0.3), 0 0 20px rgba(255, 71, 211, 0.2);
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #f8c964, #ff47d3, #3ce7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.glow-button {
+  @apply transition-all duration-300;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 20px rgba(248, 201, 100, 0.5), 0 0 30px rgba(60, 231, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+.tile-grid {
+  background-image: linear-gradient(135deg, rgba(60, 231, 255, 0.06), transparent 60%);
+}
+
+.money-burst {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+}
