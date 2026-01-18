@@ -1,0 +1,13 @@
+<svg width="180" height="90" viewBox="0 0 180 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="billGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3ce7ff" />
+      <stop offset="100%" stop-color="#4bffb1" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="176" height="86" rx="12" fill="url(#billGradient)" opacity="0.92" />
+  <rect x="10" y="10" width="160" height="70" rx="10" fill="rgba(0,0,0,0.2)" />
+  <circle cx="45" cy="45" r="18" fill="#0b0815" opacity="0.6" />
+  <text x="120" y="52" font-size="26" font-family="'Space Grotesk', sans-serif" fill="#0b0815" opacity="0.85">$100</text>
+  <text x="18" y="25" font-size="12" font-family="'Inter', sans-serif" fill="#0b0815" opacity="0.7">DICE</text>
+</svg>
