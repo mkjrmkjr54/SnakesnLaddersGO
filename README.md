@@ -7,17 +7,21 @@ Dice Ladder Casino is a Snakes-and-Ladders-inspired risk game with modern casino
 
 ## Install & Run
 
+codex/generate-dice-ladder-casino-web-game-project-6iwqfw
 ### Prerequisites (Windows + macOS)
 - **Node.js 18+** (recommended: 20 LTS). The game is local-only and works on both Windows and macOS.
 - **npm** comes with Node.js.
 
 If you use a Node version manager, you can add/use this repo’s `.nvmrc` file.
 
+=======
+main
 ```bash
 npm install
 npm run dev
 ```
 
+codex/generate-dice-ladder-casino-web-game-project-6iwqfw
 Then open the local URL printed in your terminal (usually `http://localhost:5173`).
 
 ### Windows Notes
@@ -27,6 +31,8 @@ Then open the local URL printed in your terminal (usually `http://localhost:5173
 ### macOS Notes
 - If you see permission errors, ensure Node is installed correctly and rerun `npm install`.
 
+=======
+main
 Build:
 
 ```bash
